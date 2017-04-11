@@ -1,0 +1,359 @@
+<html>
+<head>
+<title>Cineworld FSU</title>
+<HTA:APPLICATION applicationname="Cineworld FSU" scroll="yes"
+singleinstance="yes" windowstate="maximize">
+</HTA:APPLICATION>
+<script language="VBScript"> 
+Sub GPUPDATE()
+    Set objShell = CreateObject("Shell.Application")
+    objShell.ShellExecute "C:\Users\gpupdate.exe", "/force"
+End Sub
+</script> 
+</head>
+
+<script language="VBScript"> 
+Sub TouchScreenCalibrate()
+    Set objShell = CreateObject("Shell.Application")
+    objShell.ShellExecute "C:\Program Files\TouchKit\xAuto4PtsCal.exe"
+End Sub
+</script> 
+</head>
+
+<head>
+
+<script language="VBScript">
+Sub InstallOCIUS() 
+Set objShell = CreateObject("Shell.Application")
+objShell.ShellExecute "C:\FSU\J2_650_POS\install-ocius.bat"
+End Sub
+</script> 
+</head>
+
+
+<head>
+
+<script language="VBScript"> 
+Sub uninstallOCIUS()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "C:\FSU\J2_650_POS\uninstall-ocius.bat"
+End Sub
+</script> 
+</head>
+
+<head>
+
+<script language="VBScript"> 
+Sub DetectSite()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\FSU\J2_650_POS\DETECT-LOCATION.BAT"
+End Sub
+</script> 
+</head>
+
+<head>
+
+<script language="VBScript"> 
+Sub ConfigureVista()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "C:\FSU\J2_650_POS\Vista.BAT"
+End Sub
+</script> 
+</head>
+
+
+<head>
+
+<script language="VBScript"> 
+Sub TESTOPOS()
+    Set objShell = CreateObject("Shell.Application")
+    objShell.ShellExecute "C:\Program Files\J2Limited\J2OposSetup.exe"
+End Sub
+</script> 
+<head>
+
+
+<head>
+
+<script language="VBScript"> 
+Sub RestartWindows()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\FSU\J2_650_POS\REBOOT.BAT"
+End Sub
+</script> 
+</head>
+
+<head>
+
+<script language="VBScript"> 
+Sub ConfigureOCIUS()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\FSU\J2_650_POS\Run-OCIUS.BAT"
+End Sub
+</script> 
+</head>
+
+<head>
+
+<script language="VBScript"> 
+Sub ChangeComputerName()
+Set objShell = CreateObject("Shell.Application")
+   objShell.ShellExecute "c:\fsu\J2_650_pos\changename.bat"
+Set objShell = Nothing
+ End Sub
+</script> 
+</head>
+
+<script language="VBScript"> 
+Sub JoinDomain()
+Set objShell = CreateObject("Shell.Application")
+   objShell.ShellExecute "c:\fsu\J2_650_pos\Join-Domain.bat"
+Set objShell = Nothing
+ End Sub
+</script> 
+</head>
+
+<script language="VBScript"> 
+Sub LeaveDomain()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\fsu\J2_650_pos\Leave-Domain.bat"
+Set objShell = Nothing
+ End Sub
+</script> 
+</head>
+
+<script language="VBScript"> 
+Sub TestScanner()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\fsu\J2_650_pos\testscanner.bat"
+Set objShell = Nothing
+ End Sub
+</script> 
+</head>
+
+<head>
+<script language="VBScript"> 
+Sub ConfigureAutoLogin()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\FSU\J2_650_POS\AUTO-LOGIN.BAT"
+End Sub
+</script> 
+</head>
+
+<head>
+<script language="VBScript"> 
+Sub TestPrinter()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\FSU\J2_650_POS\testprinter.BAT"
+End Sub
+</script> 
+</head>
+
+<head>
+<script language="VBScript"> 
+Sub InstallSentinel()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\FSU\J2_650_POS\InstallSentinel.BAT"
+End Sub
+</script> 
+</head>
+
+<head>
+<script language="VBScript"> 
+Sub UninstallSentinel()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\FSU\J2_650_POS\UninstallSentinel.BAT"
+End Sub
+</script> 
+</head>
+
+<script language="VBScript"> 
+Sub RunSentinel()
+    Set objShell = CreateObject("Shell.Application")
+    objShell.ShellExecute "C:\Program Files\VeriFone\PAYWare Ocius Sentinel\OciusSentinel.exe"
+End Sub
+</script>
+</head>
+
+<head>
+<script language="VBScript"> 
+Sub VistaCD1()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\FSU\J2_650_POS\VISTA-CD1.BAT"
+End Sub
+</script> 
+</head>
+
+<head>
+<script language="VBScript"> 
+Sub VistaCD2()
+Set objShell = CreateObject("Shell.Application")
+ objShell.ShellExecute "c:\FSU\J2_650_POS\VISTA-CD2.BAT"
+End Sub
+</script> 
+</head>
+
+</head>
+<body style="width: 793px;">
+<div style="text-align: center;"><big>
+</big>
+<h1 style="color: rgb(255, 22, 7);"><big><span
+style="font-family: MS Shell Dlg;">Cineworld FSU Tool</span></big></h1>
+<h2 style="font-style: italic;">J2 650 Version</h2>
+</div>
+<br>
+<br>
+<table style="text-align: left; width: 792px; height: 224px;" border="1"
+cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="vertical-align: top; width: 150px; height: 41px;">
+<div style="text-align: center; width: 150px;">
+<div style="text-align: center;">Calibrate Touch Screen <br>
+</div>
+<big><br>
+</big></div>
+<div style="text-align: center; width: 150px;"><big><input
+name="TouchScreenCalibrate" id="TouchScreenCalibrate"
+value="Click Here" onclick="TouchScreenCalibrate" type="button"></big><br>
+</div>
+</td>
+<td
+style="vertical-align: top; width: 150px; height: 41px; text-align: center;">Change
+ComputerName<br>
+<br>
+<input name="ChangeComputerName" id="ChangeComputerName"
+value="Click Here" onclick="ChangeComputerName" type="button">
+</td>
+<td
+style="vertical-align: top; height: 41px; width: 150px; text-align: center;">Join/
+Leave Domain<br>
+<input name="JoinDomain" id="JoinDomain" value="JoinDomain"
+onclick="JoinDomain" type="button"><br>
+<input name="LeaveDomain" id="LeaveDomain" value="LeaveDomain"
+onclick="LeaveDomain" type="button">
+</td>
+<td
+style="vertical-align: top; height: 41px; width: 150px; text-align: center;">Configure
+Vista<br>
+<br>
+<input name="ConfigureVista" id="ConfigureVista"
+value="Click Here" onclick="ConfigureVista" type="button">
+</td>
+<td
+style="vertical-align: top; height: 41px; width: 150px; text-align: center;">OCIUS
+<br>
+<input name="InstallOCIUS" id="InstallOCIUS" value="Install"
+onclick="InstallOCIUS" type="button"><br>
+<input name="InstallOCIUS" id="Un-InstallOCIUS" value="Un-Install"
+onclick="UninstallOCIUS" type="button">
+</td>
+</tr>
+<tr>
+<td
+style="vertical-align: top; width: 150px; height: 57px; text-align: center;">Run
+OCIUS<br>
+<br>
+<input name="ConfigureOCIUS" id="ConfigureOCIUS"
+value="Click Here" onclick="ConfigureOCIUS" type="button">
+</td>
+<td
+style="vertical-align: top; width: 150px; height: 57px; text-align: center;">Configure
+POS <br>
+Auto Login<br>
+<input name="ConfigureAutoLogin" id="ConfigureAutoLogin"
+value="Click Here" onclick="ConfigureAutoLogin" type="button">
+</td>
+<td
+style="vertical-align: top; height: 57px; width: 150px; text-align: center;">Restart
+Windows<br>
+<br>
+<input name="RestartWindows" id="RestartWindows"
+value="Click Here" onclick="RestartWindows" type="button">
+</td>
+<td>
+<div style="text-align: center;">Detect
+Site/<br>
+</div>
+<div style="text-align: center;">Manual Configuration<br>
+<input name="DetectSite" id="DetectSite" value="Click Here"
+onclick="DetectSite" type="button"><br>
+</div>
+</td>
+<td style="vertical-align: top; height: 76px;">
+<div style="text-align: center;">Group Policy Update<br>
+</div>
+<div style="text-align: center;"><br>
+<input name="GPUPDATE" id="GPUPDATE" value="Click Here"
+onclick="GPUPDATE" type="button"><br>
+</div>
+</td>
+</tr>
+<tr>
+<td
+style="vertical-align: top; height: 57px; width: 150px; text-align: center;">Test
+Cash Drawer/ <br>
+Line Display<br>
+<input name="TESTOPOS" id="TESTOPOS" value="Click Here"
+onclick="TESTOPOS" type="button"><br>
+</td>
+<td
+style="vertical-align: top; height: 57px; width: 150px; text-align: center;">Test
+Printer<br>
+<br>
+<input name="TestPrinter" id="TestPrinter" value="Click Here"
+onclick="TestPrinter" type="button"><br>
+</td>
+<td style="vertical-align: top; height: 76px;">
+<div style="text-align: center;">Test Barcode Scanner<br>
+<br>
+<input name="TestScanner" id="TestScanner" value="Click Here"
+onclick="TestScanner" type="button"><br>
+</div>
+</td>
+<td
+style="vertical-align: top; height: 57px; width: 150px; text-align: center;">OCIUS
+Sentinel (Vx820)<br>
+<div style="text-align: center;"><input name="InstallSentinel"
+id="InstallSentinel" value="Install" onclick="InstallSentinel"
+type="button"></div>
+<input name="UninstallSentinel" id="UninstallSentinel"
+value="Uninstall" onclick="UninstallSentinel" type="button"><br>
+</td>
+<td style="vertical-align: top; height: 76px;">
+<div style="text-align: center;">Run Ocius Sentinel Vx820<br>
+<input name="RunSentinel" id="RunSentinel" value="Click Here"
+onclick="RunSentinel" type="button"><br>
+</div>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">
+<div style="text-align: center;">Set Vista Cash Drawer<br>
+</div>
+<div style="text-align: center;"><input name="vista-cd1"
+id="vistacd1" value="   CD1   " onclick="vistacd1" type="button"><br>
+<input name="vistacd2" id="vistacd2" value="   CD2   "
+onclick="vistacd2" type="button"><br>
+</div>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<big><br>
+Created by SCC Training Department <br>
+May 2015<br>
+</big>
+<br>
+</body>
+</html>
+
